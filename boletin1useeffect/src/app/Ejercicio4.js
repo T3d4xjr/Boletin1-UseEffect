@@ -9,7 +9,7 @@ export default function Reloj() {
       return () => {
         clearInterval(intervalId);
       };
-    }, []);
+    }, []); 
   
     return <h1>Hora actual: {hora}</h1>;
   }

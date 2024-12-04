@@ -5,6 +5,8 @@ import Ejercicio1 from "./Ejercicio1"
 import Ejercicio2 from "./Ejercicio2"
 import Ejercicio3 from "./Ejercicio3"
 import Ejercicio4 from "./Ejercicio4"
+import Ejercicio5 from "./Ejercicio5"
+import Ejercicio6 from "./Ejercicio6"
 
 
 export default function Home() {
@@ -22,6 +24,12 @@ export default function Home() {
       <br/>
       <h1>Ejercico4</h1>
       <Ejercicio4/>
+      <br/>
+      <h1>Ejercico5</h1>
+      <Ejercicio5/>
+      <br/>
+      <h1>Ejercico6</h1>
+      <Ejercicio6/>
     </div>
   );
 }
