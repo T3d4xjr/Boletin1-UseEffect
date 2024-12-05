@@ -2,7 +2,7 @@ import { useState,useEffect } from "react";
 
 export default function detectarTamañoVentana(){
     const [width, setWidth] = useState(window.innerWidth);
-    const [height,setHeight]=useState(window.innerHeight)
+    const [height,setHeight]=useState(window.innerHeight);
     
     useEffect(() => {
         const handleResize = () => {
